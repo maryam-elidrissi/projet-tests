@@ -97,6 +97,8 @@ class TestHomeyManager(unittest.TestCase):
        prop2 = self.manager.obtenir_propriete(2)
        self.assertNotIn(prop2, disponibles)
 
+
+
     # 14. Test obtenir propriÃ©tÃ©s rÃ©servÃ©es (assertIn/assertNotIn)
     def test_obtenir_reservation(self):
          self.manager.reserver_propriete(1)
